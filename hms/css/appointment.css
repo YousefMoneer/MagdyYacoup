@@ -1,0 +1,69 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+    background-image: url(./images/vission-bg.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    margin: 50px auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+    }
+
+h1 {
+	text-align: center;
+	margin-bottom: 20px;
+	color: #ff0000;
+}
+
+p{
+	font-size: 1.2em;
+	color: #000000;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+input[type=text], select, input[type=date], input[type=time] {
+	box-shadow: 0px 0px 10px 0px rgb(255, 0, 0);
+	padding: 10px;
+	margin-bottom: 10px;
+	border: none;
+	border-radius: 5px;
+}
+
+input[type=submit] {
+	background-color: #ff0000;
+	color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #a04545;
+}
